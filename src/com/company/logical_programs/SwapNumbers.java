@@ -1,4 +1,4 @@
-package com.company;
+package com.company.logical_programs;
 public class SwapNumbers {
     public static void main(String[] args){
         int a=5;

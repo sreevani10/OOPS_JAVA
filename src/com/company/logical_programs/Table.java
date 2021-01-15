@@ -1,4 +1,4 @@
-package com.company;
+package com.company.logical_programs;
 import java.util.Scanner;
 public class Table {
     public static void main(String[] args){
