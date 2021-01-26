@@ -4,17 +4,20 @@ class Bank{
         return 0;
     }
 }
+
 class SBI extends Bank{
     float getRateOfInterest(){
         return 4.7f;
     }
 }
+
 class HDFC extends Bank{
     float getRateOfInterest(){
         return 8.6f;
     }
 }
-public class CalculateBankBranchInterest {
+
+public class BankDemo {
     public static void main(String[] args) {
         Bank bank;
         bank=new SBI();

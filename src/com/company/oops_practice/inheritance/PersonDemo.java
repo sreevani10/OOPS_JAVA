@@ -6,11 +6,13 @@ class Person{
         System.out.println("Student inheriting properties");
     }
 }
+
 class Student extends Person{
     int marks=75;
     String tutorial="Tutorial";
 }
-public class PersonInheritanceExample  {
+
+public class PersonDemo {
     public static void main(String[] args) {
         Student student=new Student();
         student.show();
