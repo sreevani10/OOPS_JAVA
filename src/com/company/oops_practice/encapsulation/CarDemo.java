@@ -11,7 +11,7 @@ class Car {
     }
 }
 
-public class CarWheels{
+public class CarDemo{
     public static void main(String[] args) {
         Car car = new Car();
         car.setNoOfWheels(5);

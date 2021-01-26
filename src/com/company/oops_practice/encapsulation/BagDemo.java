@@ -22,7 +22,7 @@ class Bag {
         return pens;
     }
 }
-public class CheckBag {
+public class BagDemo {
     public static void main(String[] args) {
         Bag bag = new Bag("One indian girl",3);
         System.out.println(bag.getBook());

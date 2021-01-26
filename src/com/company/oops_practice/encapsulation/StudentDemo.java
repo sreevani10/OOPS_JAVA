@@ -21,7 +21,7 @@ class Student{
         return studentName;
     }
 }
-public class StudentInformation{
+public class StudentDemo{
     public static void main(String[] args) {
         Student student = new Student();
 
